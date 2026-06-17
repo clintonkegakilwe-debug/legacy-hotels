@@ -1,0 +1,45 @@
+function Booking() {
+  return (
+    <div>
+      <h1>Book Your Stay</h1>
+
+      <form>
+        <div>
+          <label>Full Name</label>
+          <br />
+          <input type="text" placeholder="Enter your name" />
+        </div>
+
+        <br />
+
+        <div>
+          <label>Email</label>
+          <br />
+          <input type="email" placeholder="Enter your email" />
+        </div>
+
+        <br />
+
+        <div>
+          <label>Check In</label>
+          <br />
+          <input type="date" />
+        </div>
+
+        <br />
+
+        <div>
+          <label>Check Out</label>
+          <br />
+          <input type="date" />
+        </div>
+
+        <br />
+
+        <button>Confirm Booking</button>
+      </form>
+    </div>
+  );
+}
+
+export default Booking;
