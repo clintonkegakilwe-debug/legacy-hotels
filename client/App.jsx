@@ -1,8 +1,21 @@
+import Home from "./pages/Home";
+import Rooms from "./pages/Rooms";
+import Booking from "./pages/Booking";
+import AdminDashboard from "./pages/AdminDashboard";
+
 function App() {
   return (
     <div>
-      <h1>Legacy Hotels</h1>
-      <p>Welcome to Legacy Hotels Booking System.</p>
+      <Home />
+      <hr />
+
+      <Rooms />
+      <hr />
+
+      <Booking />
+      <hr />
+
+      <AdminDashboard />
     </div>
   );
 }
